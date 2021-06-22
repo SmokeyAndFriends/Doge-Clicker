@@ -9,3 +9,9 @@ function whenLoaded() {
         dogecoin.innerHTML = dc + "Ð"
     });
 };
+
+function cmd(num) {
+    if (num = 1) {
+        console.log("Test succesful!")
+    }
+};
