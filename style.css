@@ -5,8 +5,19 @@ body {
 }
 
 #doge {
-    transform: none;
     margin: 0px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
     top: 50%;
+    left: 50%;
+}
+
+#dogecoin {
+    margin: 0px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 75%;
     left: 50%;
 }
