@@ -1,6 +1,6 @@
 function whenLoaded() {
-    const doge = document.getElementById("#doge");
-    const dogecoin = document.getElementById("#dogecoin");
+    var doge = document.querySelector("#doge");
+    var dogecoin = document.querySelector("#dogecoin");
 
     var dc = 0;
 
